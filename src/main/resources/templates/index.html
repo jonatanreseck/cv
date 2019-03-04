@@ -2,11 +2,322 @@
 
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Jonatan WEB-CV</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="../static/css/bootstrap.min.css" th:href="@{/css/bootstrap.min.css}" rel="stylesheet">
+
+        <!-- Custom fonts for this template -->
+        <link href="../static/css/saira.css" th:href="@{/css/saira.css}" rel="stylesheet">
+        <link href="../static/css/muli.css" th:href="@{/css/multi.css}" rel="stylesheet">
+        <link href="../static/css/all.min.css" th:href="@{/css/all.min.css}" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link href="../static/css/resume.min.css" th:href="@{/css/resume.min.css}" rel="stylesheet">
+
     </head>
-    <body>
-        <div>Hello world, cpm sping boot</div>
+
+    <body id="page-top">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Jonatan Reseck</span>
+                <span class="d-none d-lg-block">                    
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../static/css/profile.jpg" th:src="@{/css/profile.jpg}" alt="">
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experiência</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Educação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Proficiências</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#awards">Prêmiações</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid p-0">
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+                <div class="w-100">
+                    <h1 class="mb-0">Jonatan
+                        <span class="text-primary">Reseck</span>
+                    </h1>
+                    <div class="subheading mb-5">Santa Rita do Sapucaí ·
+                        <a href="mailto:name@email.com">jonatanreseck@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">Graduado em Sistemas de Informação pela FAI, onde adquiri conhecimentos nas linguagens C,
+                        C++ e Java durante o
+                        desenvolvimento dos projetos para serem apresentados nas Faitecs de cada ano. Também foi adquirido
+                        conhecimentos em programação durante o período de estágio, atuando no setor de desenvolvimento realizando
+                        manutenções em software.</p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/jonatan-reseck-585b4b149">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/jonatanreseck">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="m-0">
+
+            <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+                <div class="w-100">
+                    <h2 class="mb-5">Experiência</h2>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Estagiário de desenvolvimento</h3>
+                            <div class="subheading mb-3">Leucotron Telecom</div>
+                            <p>Responsável por realizar manutenções no código do sistema, realizando testes e correções de problemas
+                                relatados
+                                pelos clientes além de adaptações nos relatórios gerados pelo sistema. As linguagens utilizadas para
+                                realizar esta
+                                manutenção eram Java, C++, SQL.
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Novembro 2017 - Dezembro 2018</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Técnico em Eletrônica</h3>
+                            <div class="subheading mb-3">Hitachi Kokusai Linear</div>
+                            <p>
+                                Responsável por realizar testes e ajustes em módulos e placas de equipamentos eletrônicos na produção.
+                                Também foi realizado nesta empresa por um curto período de tempo, um estágio no desenvolvimento para
+                                realizar a
+                                documentação de um software desenvolvido pela empresa. Neste estágio foi utilizado a linguagem Java.
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Janeiro 2014 - Novembro 2017</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Auxiliar Técnico em Eletrônica</h3>
+                            <div class="subheading mb-3">RwTech</div>
+                            <p>
+                                Responsável por realizar testes e ajustes em módulos e placas de equipamentos eletrônicos no setor
+                                da manutenção. As manutenções eram feitas em equipamentos que haviam sido retornados do cliente por
+                                algum defeito ocorrido durante o uso.
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Janeiro 2013 - janeiro 2014</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Auxiliar Técnico em informática</h3>
+                            <div class="subheading mb-3">Tec Shop Informática</div>
+                            <p>
+                                Responsável por realizar manutenções em computadores e demais equipamentos de clietes.
+                                Neste emprego também era responsável por realizar atendimentos no balcão para suporte de
+                                cliente e vendas de acessórios.
+                            </p>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Fevereiro 2011 - Junho 2012</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <hr class="m-0">
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+                <div class="w-100">
+                    <h2 class="mb-5">Educação</h2>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">USK Institute of english language and culture</h3>
+                            <div class="subheading mb-3">Curos de ingles intensivo</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Fevereiro 2019 - Atualmente</span>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Centro de Ensino Superior em Gestão, Tecnologia e Educação - FAI</h3>
+                            <div class="subheading mb-3">Graduação em Sistemas de Informação </div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Janeiro 2015 - Dezembro 2018</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Escola Técnica em Eletrônica “Francisco Moreira da Costa” – ETE</h3>
+                            <div class="subheading mb-3">Técnico em Eletrônica</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Janeiro 2012 - Janeiro 2013</span>
+                        </div>
+                    </div>
+
+                    <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="resume-content">
+                            <h3 class="mb-0">Colégio Tecnológico Delfim Moreira – CP1</h3>
+                            <div class="subheading mb-3">Técnico em Informática</div>
+                        </div>
+                        <div class="resume-date text-md-right">
+                            <span class="text-primary">Junho 2009 - Julho 2011</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <hr class="m-0">
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+                <div class="w-100">
+                    <h2 class="mb-5">Proficiência</h2>
+
+                    <div class="subheading mb-3">linguagens de Programação &amp; Ferramentas</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item">
+                            <i class="fab fa-html5"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-css3-alt"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-js-square"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-java"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-react"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-copyright"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-github"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-database"></i>
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fab fa-php"></i>
+                        </li>
+                    </ul>
+
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <i class="fa-li fa fa-check"></i>
+                            Design responsivo para dispositivos móveis, primeiro</li>
+                        <li>
+                            <i class="fa-li fa fa-check"></i>
+                            Cross Browser Testing &amp; Debugging</li>
+                        <li>
+                            <i class="fa-li fa fa-check"></i>
+                            Equipes funcionais cruzadas</li>
+                        <li>
+                            <i class="fa-li fa fa-check"></i>
+                            Desenvolvimento Ágil &amp; Scrum</li>
+                    </ul>
+                </div>
+            </section>
+
+            <hr class="m-0">
+
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+                <div class="w-100">
+                    <h2 class="mb-5">Premiações &amp; Certificados</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            2<sup>o</sup>
+                            lugar do segundo ano na Faitec 2016 com o projeto C-Learnig que utilizou a linguagem C ++;
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            2<sup>o</sup>
+                            lugar do terceiro ano no Faitec 2017 com o projeto SendEx, que usava linguagens Java e SQL além do
+                            framework Bootstrap;
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            1<sup>o</sup>
+                            lugar do quarto ano no Faitec 2018 com o projeto Garagem Virtual usando a linguagem Java e os frameworks
+                            Spring Boot, Bootstrap e API do Google Maps.
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            1<sup>o</sup>
+                            lugar do prêmio de inovação municipal de 2018.
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            1<sup>o</sup>
+                            lugar do prêmio de inovação municipal de 2018.
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            Participação na maratona de programação da SBC na fase regional nos anos de 2016, 2017, 2018;
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            Monitor do tema "técnicas de programação" que utilizou a linguagem C e a biblioteca Allegro - 2016 e 2017.
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-trophy text-warning"></i>
+                            Fullstack Academy (futibaClub) – devPleno.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="../static/css/js/jquery.min.js" th:src="@{/css/js/jquery.min.js}"></script>
+        <script src="../static/css/js/bootstrap.bundle.min.js" th:src="@{/css/js/bootstrap.bundle.min.js}"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="../static/css/js/jquery.easing.min.js" th:src="@{/css/js/jquery.easing.min.js}"></script>
+
+        <!-- Custom scripts for this template -->
+        <script src="../static/css/js/resume.min.js" th:src="@{/css/js/resume.min.js}"></script>
+
     </body>
 </html>
