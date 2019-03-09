@@ -1,5 +1,4 @@
 # cv
-web currículo
 
 Web curriculo hospedado no Heroku:
 
